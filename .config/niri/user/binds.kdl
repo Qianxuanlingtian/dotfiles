@@ -1,0 +1,16 @@
+binds {
+	// 音乐操控相关（rmpc）
+	Ctrl+Shift+Space { spawn "rmpc" "togglepause"; }
+	Ctrl+Shift+Left { spawn "rmpc" "prev"; }
+	Ctrl+Shift+Right { spawn "rmpc" "next"; }
+	Ctrl+Shift+Up { spawn "rmpc" "volume" "+5"; }
+	Ctrl+Shift+Down { spawn "rmpc" "volume" "-5"; }
+
+	// 窗口移动相关
+	Mod+Ctrl+Left { move-column-left; }
+	Mod+Ctrl+Right { move-column-right; }
+
+	// 窗口列管理
+	Mod+Ctrl+Comma { consume-window-into-column; }
+	Mod+Ctrl+Period { expel-window-from-column; }
+}
