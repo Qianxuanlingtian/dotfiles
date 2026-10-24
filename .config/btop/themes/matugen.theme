@@ -1,0 +1,83 @@
+# Matugen template for btop
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]=""
+
+# --- 修改1：强制主文字亮度 >= 75% ---
+# 深色背景下必须有亮字，auto_lightness 会确保它变亮
+theme[main_fg]="#262125"
+#theme[main_fg]="#100e1f"
+
+# Title color for boxes
+theme[title]="#cac6e5"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#928ca5"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#cac6e5"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#2f2e46"
+
+# Color of inactive/disabled text
+# --- 修改3：非活跃文字比主文字暗一点，但也要保证能看清 ---
+theme[inactive_fg]="#615c6a"
+
+# Misc colors for processes box
+theme[proc_misc]="#e5bfd4"
+
+# --- 修改4：补充图表上文字的颜色（你的模板里漏了这个） ---
+theme[graph_text]="#a9a3d5"
+
+# Cpu box outline color
+theme[cpu_box]="#cac6e5"
+# Memory/disks box outline color
+theme[mem_box]="#cac6e5"
+# Net up/down box outline color
+theme[net_box]="#cac6e5"
+# Processes box outline color
+theme[proc_box]="#cac6e5"
+
+# Box divider line and small boxes line color
+theme[div_line]="#cac6e5"
+
+# Temperature graph colors
+theme[temp_start]="#c8c5d2"
+theme[temp_mid]="#cac6e5"
+theme[temp_end]="#ffb4ab"
+
+# CPU graph colors
+theme[cpu_start]="#c8c5d2"
+theme[cpu_mid]="#cac6e5"
+theme[cpu_end]="#ffb4ab"
+
+# Mem/Disk free meter
+theme[free_start]="#c8c5d2"
+theme[free_mid]=""
+theme[free_end]="#474551"
+
+# Mem/Disk cached meter
+theme[cached_start]="#e5bfd4"
+theme[cached_mid]=""
+theme[cached_end]="#c8a4b8"
+
+# Mem/Disk available meter
+theme[available_start]="#cac6e5"
+theme[available_mid]=""
+theme[available_end]="#aeabc9"
+
+# Mem/Disk used meter
+theme[used_start]="#ffb4ab"
+theme[used_mid]=""
+theme[used_end]="#93000a"
+
+# Download graph colors
+theme[download_start]="#c8c5d2"
+theme[download_mid]="#cac6e5"
+theme[download_end]="#e5bfd4"
+
+# Upload graph colors
+theme[upload_start]="#c8c5d2"
+theme[upload_mid]="#cac6e5"
+theme[upload_end]="#e5bfd4"

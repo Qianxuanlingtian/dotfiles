@@ -1,0 +1,11 @@
+[config]
+
+[templates.btop]
+input_path = '/home/zhou_/.config/matugen/templetes/btop.theme'
+output_path = '/home/zhou_/.config/btop/themes/matugen.theme'
+post_hook = 'pkill -USR2 btop || true'
+
+[templates.cava]
+input_path = '/home/zhou_/.config/matugen/templetes/cava'
+output_path = '/home/zhou_/.config/cava/themes/matugen-theme'
+post_hook = 'pkill -USR1 cava'
